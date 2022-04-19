@@ -16,14 +16,31 @@ h1{
     font-size: 90px;
     font-family: 'Sacramento',cursive;
     color:#66BFBF;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
     margin:50px auto 0 auto;
     line-height: 1;
 }
-
+.h1head{
+  font-size: 90px;
+  font-family: 'Sacramento',cursive;
+  color:#FFFFFF;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+  margin:50px auto 0 auto;
+  line-height: 1;
+}
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color:#66BFBF;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.h2head{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#FFFFF5;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
   font-weight: normal;
   padding-bottom: 10px;
 }
@@ -48,12 +65,15 @@ p{
 }
 .cloud-f{
   position:absolute;
+  width: 200px;
   top:50px;
   right:500px;
+  transform: scaleX(-1);
 }
 .cloud-s{
   position:absolute;
   bottom: 300px;
+  width: 200px;
   left:500px;
 
 }
@@ -78,7 +98,7 @@ clear:left;
   clear:right;
 }*/
 .top-container{
-    background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/08/a0026461_508d3d23cd366.jpg");
+    background-image: url("https://mkpcdn.com/1000x/782b1bd76bd5ae4e141133802f83e936_107549.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-color: #EAF6F6;
